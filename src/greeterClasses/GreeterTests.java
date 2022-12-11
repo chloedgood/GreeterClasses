@@ -12,38 +12,71 @@ class GreeterTests {
 
 
 	@Test
-	void test1() {
+	void Greetertest1() {
 		Greeter g = new Greeter("Guten Tag");	
 		assertEquals("Guten Tag", g.greeting);
 	}
 
 	@Test
-	void test2() {
+	void Greetertest2() {
 		Greeter g = new Greeter("Howdy There");	
 		assertEquals("Howdy There", g.greeting);
 	}
 	
 	@Test
-	void test3() {
+	void Greetertest3() {
 		Greeter g = new Greeter("Hola");	
 		assertEquals("Hola", g.greeting);
 	}
 	
 	@Test
-	void test4() {
+	void Greetertest4() {
 		Greeter g = new Greeter("Hello");	
 		assertEquals("Hello", g.greeting);
 	}
 	
 	@Test
-	void test5() {
+	void Greetertest5() {
 		Greeter g = new Greeter("Aloha");	
 		assertEquals("Aloha", g.greeting);
 	}
 	
 	@Test
-	void test6() {
+	void Greetertest6() {
 		Greeter g = new Greeter("Yo");	
 		assertEquals("Yo", g.greeting);
 	}
+	
+	@Test
+	void SimonGreetertest1() {
+		SimonGreeter sg1 = new SimonGreeter("Howdy");	
+		assertEquals("Howdy", sg1.greeting);
+	}
+	
+	@Test
+	void LoudGreetertest1() {
+		SimonGreeter lg1 = new SimonGreeter("Hey there");	
+		assertEquals("Hey there" , lg1.greeting);
+	}
+	
+	@Test
+	void HtmlGreetertest1() {
+		HtmlGreeter hg1 = new HtmlGreeter("Bonjour");	
+		assertEquals("Bonjour" , hg1.greeting);
+	}
+	
+	@Test
+	void HtmlGreetertest2() {
+		HtmlGreeter hg2 = new HtmlGreeter("Ciao");	
+		assertEquals("Ciao" , hg2.greeting);
+	}
+	
+	
+	
+	
+	
+	//test HTML greeter
+	
+	//test HTML greeter 2
+	
 }
